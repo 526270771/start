@@ -8,9 +8,6 @@
     <artifactId>flink_pro</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>testl</module>
-    </modules>
 
     <dependencies>
         <dependency>
@@ -20,9 +17,13 @@
             <!--
             四种状态
             compile表示依赖代码编译，默认方式
-
             provided在这表示此依赖只在代码编译的时候使用，运行和打包的时候不使用
             test 只针对测试有效
+
+            pom版本控制，打出来可以作为其他项目的maven依赖
+            jar默认，
+            war web打包出来的效果
+
 
 
 
